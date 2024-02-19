@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Racing+Sans+One:regular"
+      rel="stylesheet"
+    />
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Посилені стяжні ремені від Європейського виробника</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <header class="header">
+        <h2 class="logo">CargoTruck</h2>
+
+        <nav class="header__nav nav">
+          <a class="nav__link" href="#main">Головна</a>
+          <a class="nav__link" href="#card">Ціна</a>
+          <a class="nav__link" href="#advantages">Переваги</a>
+          <a class="nav__link" href="#info">Про нас</a>
+          <a class="nav__link" href="#contact">Зв`язок</a>
+        </nav>
+
+        <a href="#" class="header__btn btn btn--s">Замовити дзвінок</a>
+      </header>
+      <section id="main" class="main">
+        <div class="main__text">
+          <h1 class="main__heading">
+            Посилені стяжні ремені <br>
+            <span class="mark">за акційною ціною!</span>
+          </h1>
+          <p class="main__description">
+              ЗАМОВЛЯЙ від 10шт та отримуй <br>
+              не тільки <span class="mark">акційну ціну</span>, а й ПОДАРУНОК!
+          </p>
+          <div>
+              <a href="#card" class="main__btn btn btn--animation">Розрахувати вартість</a>
+          </div>
+        </div>
+        <div class="main__image">
+          <img class="main__img" src="./img/main-img.png" alt="">
+        </div>
+      </section>
+      <section id="card" class="section card">
+        <h2 class="section__heading">Розрахувати вартість</h2>
+
+        <div class="card__content">
+          <div class="card__galery galery">
+            <div class="galery__inner">
+              <img src="./img/galery-1.png" alt="" class="galery__preview">
+              <div class="galery__images">
+                <img src="./img/galery-1.png" alt="" class="galery__img galery__img--active">
+                <img src="./img/galery-2.png" alt="" class="galery__img">
+                <img src="./img/galery-3.png" alt="" class="galery__img">
+              </div>
+            </div>
+          </div>
+          <div class="card__information">
+            <h3 class="card__title">Посилений стяжний ремінь 10м 5т Євростандарт EN 12195-2</h3>
+            <table class="card__table">
+              <tr>
+                  <th colspan="2">Характеристики</th>
+              </tr>
+              <tr>
+                  <td>Довжина ременя, м</td>
+                  <td>10(9,5+0,5)</td>
+              </tr>
+              <tr>
+                  <td>Ширина стрічки, мм</td>
+                  <td>50</td>
+              </tr>
+              <tr>
+                  <td>Країна виробник</td>
+                  <td>Європа</td>
+              </tr>
+              <tr>
+                  <td>Матеріал</td>
+                  <td>Поліпропілен</td>
+              </tr>
+              <tr>
+                  <td>Рік виготовлення:</td>
+                  <td>2023</td>
+              </tr>
+              <tr>
+                  <td>Особливості</td>
+                  <td>Посилений механізм, храповий замок,
+                      гаки для кріплення,
+                      гарантія 12 місяців</td>
+              </tr>
+            </table>
+            <div class="card__price-control price-control">
+              <div class="price-control__item">
+                  <input type="number" maxlength="2" value="10" class="price-control__input">
+                  <div class="price-control__buttons">
+                      <button class="price-control__btn price-control__btn--minus">-</button>
+                      <button class="price-control__btn price-control__btn--plus">+</button>
+                  </div>
+              </div>
+              шт
+              <img src="./img/icon-1.png" alt="">
+              <div class="price-control__item">
+                  <span class="price-control__old-price">876₴</span>
+                  <input type="text" value="632" disabled class="price-control__input">
+                  <div class="price-control__sale">
+                      -30%
+                  </div>
+              </div>
+              ₴
+              <img src="./img/icon-2.png" alt="">
+              <div class="price-control__result">
+                  <span class="price-control__sum">6920 ₴</span>
+                  <span class="price-control__old-sum">6130 ₴</span>
+              </div>
+            </div>
+            <a href="#" id="openModalBtn" class="card__btn btn btn--animation">Розрахувати вартість</a>
+
+          </div>
+        </div>
+      </section>
+      <section id="advantages" class="section advantages">
+        <h2 class="section__heading">Чому ми?</h2>
+
+        <div class="advantages__content">
+          <div class="advantages__item">
+            <img src="./img/advantages-1.png" class="advantages__img">
+            <h4 class="advantages__name">Міцність та надійність</h4>
+            <p class="advantages__description">
+              Високоякісні матеріали <br> 
+              дають змогу витримувати 
+              навантаження до 5т
+            </p>
+          </div>
+          <div class="advantages__item">
+            <img src="./img/advantages-2.png" class="advantages__img">
+            <h4 class="advantages__name">універсальність</h4>
+            <p class="advantages__description">
+              Ідеально підходять для
+              будь-яких вантажів та умов перевезення
+            </p>
+          </div>
+          <div class="advantages__item">
+            <img src="./img/advantages-3.png" class="advantages__img">
+            <h4 class="advantages__name">легке використання</h4>
+            <div class="advantages__description">
+              Посилений механізм дає змогу
+              легко та надійно закріпити
+              вантаж
+            </div>
+          </div>
+          <div class="advantages__item">
+            <img src="./img/advantages-4.png" class="advantages__img">
+            <h4 class="advantages__name">зроблено в європі</h4>
+            <p class="advantages__description">
+              Наші ремені виготовлено за найсучаснішими технологіями на Європейських заводах
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="info" class="info section">
+        <h2 class="section__heading">Про нас</h2>
+        <div class="info__content">
+            <div class="info__text">
+              <p class="info__description">
+                Шукаєте надійні стяжні ремені для перевезення вантажів? Ми пропонуємо високоякісні <span class="mark">європейські</span> стяжні ремені з міцних та довговічних матеріалів.
+                <br><br>
+                Довжина ременів - <span class="mark">10 метрів</span>, що дозволяє надійно закріпити вантажі будь-яких розмірів. Посилена ручка забезпечує безпечне та легке кріплення будь-якого типу вантажу.
+                <br><br>
+                Ремені є <span class="mark">універсальними</span> - їх можна використовувати для кріплення різноманітних вантажів: палет, меблів, будівельних матеріалів, спортивного інвентарю тощо. Вони ідеально підходять як для професійного використання, так і для домашнього.
+                <br><br>
+                Придбайте якісні європейські стяжні ремені з посиленою ручкою в нашому магазині. Ми <span class="mark">універсальними</span> надійне кріплення ваших вантажів під час транспортування.
+              </p>
+              <a href="#" class="info__btn btn btn--animation">Замовити</a>
+            </div>
+          <img src="./img/galery-3.png" alt="Remin" class="info__image">
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section__heading">Зв`язок з нами</h2>
+        <div class="contact__content">
+          <h5 class="contact__title">Залишились питання? Заповніть форму нижче, та наш менеджер зв`яжиться з вами найближчим часом</h5>
+          <form class="contact__form" action="#">
+            <label class="contact__label">
+              <input class="contact__input" type="text" placeholder="Ваше і`мя">
+            </label>
+            <label class="contact__label">
+              <input class="contact__input mask-number" type="tel" placeholder="Ваш номер">
+            </label>
+            <button type="submit" class="btn contact__btn">Замовити дзвінок</button>
+
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <h2 class="logo">CargoTruck</h2>
+        <nav class="nav footer__nav">
+          <a class="nav__link" href="#main">Головна</a>
+          <a class="nav__link" href="#card">Ціни</a>
+          <a class="nav__link" href="#advantages">Поради</a>
+          <a class="nav__link" href="#info">Про нас</a>
+          <a class="nav__link" href="#contact">Зв`язок</a>
+        </nav>
+        <a href="#" class="btn btn--s">Замовити дзвінок</a>
+      </footer>
+    </div>
+
+    <!-- Модальне вікно -->
+    <div id="myModal" class="modal">
+      <!-- Контент модального вікна -->
+          <div class="modal__content">
+              <div class="modal__header">
+                <h2 class="modal__title">Оформлення замовлення</h2>
+                <span class="close">&times;</span>
+              </div>
+              <table class="modal__table">
+                <tr>
+                  <td>Фото</td>
+                  <td>Назва</td>
+                  <td>К-сть</td>
+                  <td>Ціна</td>
+                  <td>Сума</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="./img/galery-1.png" alt="">
+                  </td>
+                  <td class="modal__product-title">
+                    Посилений стяжний ремінь 10м 5т Євростандарт EN 12195-2
+                  </td>
+                  <td class="tPcs">
+                    10 шт
+                  </td>
+                  <td class="tPrc">
+                    612 ₴
+                  </td>
+                  <td class="tTtl">
+                    6120 ₴
+                  </td>
+                </tr>
+                <tr class="podarok">
+                  <td>
+                    <img src="./img/galery-1.png" alt="">
+                  </td>
+                  <td class="modal__product-title">
+                    Аптечка Євростандарт 
+                  </td>
+                  <td>
+                    1шт
+                  </td>
+                  <td>
+                    0 ₴
+                  </td>
+                  <td>
+                    0 ₴
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Всього
+                  </td>
+                  <td class="modal__product-title">
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td class="tMore">
+                    6120 ₴
+                  </td>
+                </tr>
+              </table>
+              <form class="contact__form" action="#">
+                <input type="hidden" class="hidden-input">
+                <label class="contact__label">
+                  <input class="contact__input" type="text" placeholder="ПІБ (Іванов Іван Іванович)">
+                </label>
+                <label class="contact__label">
+                  <input class="contact__input" type="text" placeholder="Місто (м. Київ)">
+                </label>
+                <label class="contact__label">
+                  <input class="contact__input" type="text" placeholder="Адреса (номер відділення))">
+                </label>
+                <label class="contact__label">
+                  <input class="contact__input mask-number" type="tel" placeholder="Ваш номер">
+                </label>
+                <button type="submit" class="btn contact__btn">Підтвердити замовлення</button>
+    
+              </form>
+          </div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/maska-nomera.js" type="text/javascript" ></script>
+
+    <!-- Custom Js -->
+    <script src="./js/core.js"></script>
+  </body>
+</html>

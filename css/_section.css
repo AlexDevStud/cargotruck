@@ -1,0 +1,16 @@
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section__heading {
+    margin-bottom: 60px;
+    
+    color: #FFA800;
+
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+
+    text-transform: uppercase;
+}
