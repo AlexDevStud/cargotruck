@@ -1,0 +1,29 @@
+.nav__link {
+    margin-right: 25px;
+
+    color: var(--text-color-light);
+
+    font-size: 16px;
+    font-weight: 300;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    opacity: .8;
+
+    transition: opacity .3s ease, color .3s ease;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.nav__link--active {
+    color: var(--accent-color);
+
+    opacity: 1;
+}

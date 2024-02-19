@@ -1,0 +1,44 @@
+.advantages {
+    background: var(--bg-gradient);
+}
+
+.advantages__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 30px;
+}
+
+.advantages__item {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+    flex-direction: column;
+    background-color: var(--text-color-light);
+
+    border-radius: 20px;
+
+    transition: scale .3s ease;
+}
+
+.advantages__img {
+    margin: 0 auto;
+    width: 128px;
+}
+
+.advantages__name {
+    margin: 15px 0;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+.advantages__item:hover {
+    scale: 1.1;
+
+    cursor: pointer;
+}

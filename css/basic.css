@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+section,
+header,
+footer {
+  padding: 0 15px;
+}
+
+input {
+    font-family: inherit;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--bg-color-light);
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mark {
+    color: #FFA800;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+}
