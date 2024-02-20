@@ -65,3 +65,21 @@
 
     border-color: var(--accent-color);
 }
+
+.contact__input:focus::-webkit-input-placeholder {
+    outline: none;
+
+    border-color: var(--accent-color);
+  }
+  
+  .contact__input:focus::-moz-placeholder {
+    outline: none;
+
+    border-color: var(--accent-color);
+  }
+  
+  .contact__input:focus:-moz-placeholder {
+    outline: none;
+
+    border-color: var(--accent-color);
+  }
