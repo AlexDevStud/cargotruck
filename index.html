@@ -100,6 +100,12 @@
                       гарантія 12 місяців</td>
               </tr>
             </table>
+
+            <div class="card__prices">
+              <p>Від 1шт до 5шт - 692 ₴</p>
+              <p>Від 5шт - 613 ₴</p>
+            </div>
+
             <div class="card__price-control price-control">
               <div class="price-control__item">
                   <input type="number" maxlength="2" value="10" class="price-control__input">
@@ -194,10 +200,10 @@
           <h5 class="contact__title">Залишились питання? Заповніть форму нижче, та наш менеджер зв`яжиться з вами найближчим часом</h5>
           <form class="contact__form" action="#">
             <label class="contact__label">
-              <input class="contact__input" type="text" placeholder="Ваше і`мя">
+              <input class="contact__input" type="text" name="name" placeholder="Ваше і`мя">
             </label>
             <label class="contact__label">
-              <input class="contact__input mask-number" type="tel" placeholder="Ваш номер">
+              <input class="contact__input mask-number" name="tel" type="tel" placeholder="Ваш номер">
             </label>
             <button type="submit" class="btn contact__btn">Замовити дзвінок</button>
 
@@ -286,13 +292,13 @@
               <form class="contact__form" action="#">
                 <input type="hidden" class="hidden-input">
                 <label class="contact__label">
-                  <input class="contact__input" type="text" placeholder="ПІБ (Іванов Іван Іванович)">
+                  <input class="contact__input" type="text" name="name" placeholder="ПІБ (Іванов Іван Іванович)">
                 </label>
                 <label class="contact__label">
-                  <input class="contact__input" type="text" placeholder="Місто (м. Київ)">
+                  <input class="contact__input" type="text" name="city" placeholder="Місто (м. Київ)">
                 </label>
                 <label class="contact__label">
-                  <input class="contact__input" type="text" placeholder="Адреса (номер відділення))">
+                  <input class="contact__input" type="text" name="adress" placeholder="Адреса (номер відділення))">
                 </label>
                 <label class="contact__label">
                   <input class="contact__input mask-number" type="tel" placeholder="Ваш номер">
@@ -302,6 +308,28 @@
               </form>
           </div>
       </div>
+
+      <div id="myModal2" class="modal">
+        <!-- Контент модального вікна -->
+            <div class="modal__content">
+                <div class="modal__header">
+                  <h2 class="modal__title">Оформлення замовлення</h2>
+                  <span class="close">&times;</span>
+                </div>
+                <h3 class="modal2__heading">Замовлення прийнято! <br> <br>Наш менеджер зателефонує Вам протягом 60 хвилин для уточнення деталей.</h3>
+            </div>
+        </div>
+
+        <div id="myModal3" class="modal">
+          <!-- Контент модального вікна -->
+              <div class="modal__content">
+                  <div class="modal__header">
+                    <h2 class="modal__title">Оформлення замовлення</h2>
+                    <span class="close">&times;</span>
+                  </div>
+                  <h3 class="modal2__heading">Наш менеджер зателефонує Вам протягом 60 хвилин для уточнення деталей.</h3>
+              </div>
+          </div>
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

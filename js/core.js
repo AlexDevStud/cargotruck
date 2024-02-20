@@ -168,3 +168,39 @@ btnSubmit.addEventListener('click', function () {
     tMore.innerHTML = input2.value * input1.value + " ₴";
 
 })
+
+// Отримуємо елементи DOM
+var modal2 = document.querySelector('#myModal2');
+var span2 = document.querySelector("#myModal2 .close");
+
+console.log(span2);
+
+// Коли користувач клікає на закрити кнопку (×), закриваємо вікно
+span2.addEventListener('click', function() {
+    modal2.style.display = "none";
+})
+
+// Коли користувач клікає десь за модальним вікном, закриваємо його
+window.addEventListener('click', function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+})
+
+// Отримуємо елементи DOM
+var modal3 = document.querySelector('#myModal3');
+var span3 = document.querySelector("#myModal3 .close");
+
+console.log(span2);
+
+// Коли користувач клікає на закрити кнопку (×), закриваємо вікно
+span3.addEventListener('click', function() {
+    modal3.style.display = "none";
+})
+
+// Коли користувач клікає десь за модальним вікном, закриваємо його
+window.addEventListener('click', function(event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+})

@@ -28,7 +28,7 @@
 }
 
 .card__table {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
     width: 100%;
     max-width: 400px;
@@ -38,6 +38,18 @@
     border-radius: 15px;
 
     box-shadow: 0 0 40px #FFA800;
+}
+
+.card__prices {
+    margin-bottom: 50px;
+
+    color: var(--text-color-light);
+
+    font-weight: 300;
+}
+
+.card__prices p{
+    margin-bottom: 10px;
 }
 
 .card__table th, .card__table td {

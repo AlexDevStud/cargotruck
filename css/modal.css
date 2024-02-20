@@ -71,3 +71,10 @@
     max-width: 250px;
 }
 
+.modal2__heading {
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: var(--text-color-light);
+}
