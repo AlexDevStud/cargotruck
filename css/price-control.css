@@ -41,6 +41,8 @@
 }
 
 .price-control__btn {
+    display: block;
+    
     width: 29px;
 
     border: none;
