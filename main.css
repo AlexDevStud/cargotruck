@@ -1,0 +1,49 @@
+.main {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+
+    grid-gap: 30px;
+
+    color: var(--text-color-light);
+
+    background: var(--bg-gradient);
+}
+
+.main__heading {
+    margin-bottom: 40px;
+
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.main__description {
+    margin-bottom: 48px;
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.main__img {
+    animation: 5s ease-in-out 0s infinite  main-img-animation;
+}
+
+
+@keyframes main-img-animation {
+    0% {
+        rotate: 0deg;
+    }
+
+    35% {
+        rotate: -2deg;
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}

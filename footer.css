@@ -1,4 +1,4 @@
-.header {
+.footer {
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -8,7 +8,5 @@
 
     background-color: var(--bg-color-dark);
 
-    box-shadow: 8px 0 20px var(--bg-color-light);
-
-    z-index: 3;
+    box-shadow: -8px 0 20px var(--bg-color-dark);
 }

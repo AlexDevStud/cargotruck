@@ -1,0 +1,27 @@
+.info {
+    background-color: var(--bg-color-dark);
+}
+
+.info__content {
+    display: grid; 
+    grid-template-columns: 7fr 5fr;
+
+    grid-gap: 30px;
+}
+
+.info__description {
+    margin-bottom: 30px;
+
+    color: var(--text-color-light);
+
+    font-size: 20px;
+    font-weight: 300;
+
+    text-align: justify;
+}
+
+.info__image {
+    box-shadow: 0 0 5px var(--accent-color);
+
+    border-radius: 20px;
+}

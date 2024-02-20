@@ -1,10 +1,4 @@
-let header = document.querySelector('.header'),
-body   = document.querySelector('body'),
-galeryInner   = document.querySelector('.galery__inner');
-
-// Set Padding Top for Main
-body.style.paddingTop = header.clientHeight + "px";
-galeryInner.style.top = header.clientHeight + 10 + "px";
+let galeryInner   = document.querySelector('.galery__inner');
 
 function galeryControl(selector) {
     let imagesArr = document.querySelectorAll(selector + " .galery__img"),
@@ -41,17 +35,23 @@ btnPlus.addEventListener('click', function () {
         input1.value++;
     }
 
-    if(input1.value < 10)
+    if(input1.value < 5)
     {
         input2.value = 692;
         sale.innerHTML = "-21%";
         sale.classList.remove('bgc-rose');
-        btnSub.innerHTML = "Оформити замовлення";
     } 
     else {
         input2.value = 613;
         sale.innerHTML = "-30%";
         sale.classList.add('bgc-rose');
+    }
+
+    if(input1.value < 10)
+    {
+        btnSub.innerHTML = "Оформити замовлення";
+    } 
+    else {
         btnSub.innerHTML = "Отримати подарунок";
     }
 
@@ -75,12 +75,18 @@ btnMinus.addEventListener('click', function () {
         input2.value = 692;
         sale.innerHTML = "-21%";
         sale.classList.remove('bgc-rose');
-        btnSub.innerHTML = "Оформити замовлення";
     } 
     else {
         input2.value = 613;
         sale.innerHTML = "-30%";
         sale.classList.add('bgc-rose');
+    }
+
+    if(input1.value < 10)
+    {
+        btnSub.innerHTML = "Оформити замовлення";
+    } 
+    else {
         btnSub.innerHTML = "Отримати подарунок";
     }
 
